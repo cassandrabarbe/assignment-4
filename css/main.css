@@ -121,12 +121,20 @@ li {
   line-height: 1;
 }
 
+figure{
+  border: solid;
+  margin: 2em;
+  padding: 0.7em;
+  border-radius: 20px;
+}
+
 figcaption {
   font-weight: normal;
   font-size: 0.9rem;
   font-style: italic;
   font-family: 'Open Sans Condensed', sans-serif;
   line-height: 1;
+  text-align: center;
 }
 
 dt {
@@ -135,4 +143,9 @@ dt {
 
 footer {
   background-color: lightgrey;
+  text-align: left;
+}
+
+img {
+  width: 100%
 }
